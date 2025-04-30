@@ -26,7 +26,7 @@ int main() {
     
     printf("PIB: ");
     
-    scanf("%f, &pib1);
+    scanf("%f", &pib1);
         
     printf("Area: ");
     
@@ -34,7 +34,7 @@ int main() {
 
     printf("Pontos Turísticos: ");
     
-    scanf("%d, &pontos_turisticos1);
+    scanf("%d", &pontos_turisticos1);
 
 
         
@@ -52,7 +52,7 @@ int main() {
     
     printf("PIB: ");
     
-    scanf("%f, &pib2);
+    scanf("%f", &pib2);
         
     printf("Area: ");
     
@@ -60,7 +60,7 @@ int main() {
 
     printf("Pontos Turísticos: ");
     
-    scanf("%d, &pontos_turisticos2);   
+    scanf("%d", &pontos_turisticos2);   
 
 
 
