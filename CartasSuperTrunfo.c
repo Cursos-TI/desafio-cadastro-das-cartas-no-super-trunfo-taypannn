@@ -2,9 +2,7 @@
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+
 
 int main() {
 
@@ -20,21 +18,67 @@ int main() {
     int pontos_turisticos2;
 
 
-    printf("populacao1:\n");
-    printf("pib1:\n");
-    printf("area1:\n");
-    printf("pontos_turisticos1:\n"):
+    printf("Digite os dados da primeira cidade:\n");
+    
+    printf("Populacao: ");
+
+    scanf("d%", &populacao1);
+    
+    printf("PIB: ");
+    
+    scanf("%f, &pib1);
+        
+    printf("Area: ");
+    
+    scanf("%f", &area1);
+
+    printf("Pontos Turísticos: ");
+    
+    scanf("%d, &pontos_turisticos1);
 
 
-    scanf("populacao1:\n");
-    scanf("pib1:\n");
-    scanf("area1:\n");
-    scanf("pontos_turisticos1:\n");
+        
 
-    scanf("populacao2:\n");
-    scanf("pib2:\n");
-    scanf("area2:\n");
-    scanf("pontos_turisticos2:\n");
+    //cadastro dos dados da segunda cidade
+
+
+        
+
+    printf("Digite os dados da segunda cidade:\n");
+    
+    printf("Populacao: ");
+
+    scanf("d%", &populacao2);
+    
+    printf("PIB: ");
+    
+    scanf("%f, &pib2);
+        
+    printf("Area: ");
+    
+    scanf("%f", &area2);
+
+    printf("Pontos Turísticos: ");
+    
+    scanf("%d, &pontos_turisticos2);   
+
+
+
+     // Exibição dos dados cadastrados
+
+
+     printf("\nDados cadrastrados:\n");
+    
+     printf("Cidade 1 - Populacao: %d, PIB: %.2f, Area: %.2f, Pontos Turísticos:%d\n", populacao1, pib1, area1, pontos_turisticos1);
+
+     printf("Cidade 2 - Populacao: %d, PIB: %.2f, Area: %.2f, Pontos Turísticos:%d\n", populacao2, pib2, area2, pontos_turisticos2);
+
+
+        
+
+
+
+    
     
     
 
