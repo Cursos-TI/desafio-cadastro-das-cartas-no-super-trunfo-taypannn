@@ -22,7 +22,7 @@ int main() {
     
     printf("Populacao: ");
 
-    scanf("d%", &populacao1);
+    scanf("%d", &populacao1);
     
     printf("PIB: ");
     
@@ -48,7 +48,7 @@ int main() {
     
     printf("Populacao: ");
 
-    scanf("d%", &populacao2);
+    scanf("%d", &populacao2);
     
     printf("PIB: ");
     
@@ -67,7 +67,7 @@ int main() {
      // Exibição dos dados cadastrados
 
 
-     printf("\nDados cadrastrados:\n");
+     printf("\nDados cadastrados:\n");
     
      printf("Cidade 1 - Populacao: %d, PIB: %.2f, Area: %.2f, Pontos Turísticos:%d\n", populacao1, pib1, area1, pontos_turisticos1);
 
